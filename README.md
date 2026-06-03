@@ -1,13 +1,13 @@
 <div align="center">
 
-# Baro Bao
+# Baro Nguyen
 
 ### 🇯🇵 Career &amp; AI cho người Việt biết tiếng Nhật
 
 **11 năm: Dev → BrSE → PM → Sale → CEO** tại công ty IT phục vụ thị trường Nhật.
 Mình chia sẻ cách **nhảy ladder sự nghiệp** và **dùng AI để làm việc gấp 3–5 lần** trong môi trường công ty Nhật.
 
-[![Website](https://img.shields.io/badge/Website-1B2A4A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://barobaonguyen.github.io/barobao/)
+[![Website](https://img.shields.io/badge/Website-1B2A4A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://barobaonguyen.github.io/baronguyen001/)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@baronguyen001)
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@baronguyen001)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/baronguyen001)
@@ -22,7 +22,7 @@ Mình chia sẻ cách **nhảy ladder sự nghiệp** và **dùng AI để làm 
 
 Đúng bộ mình dùng để giao **80% việc lặp** cho AI mỗi ngày — copy về dùng được ngay.
 
-> 👉 **Nhận miễn phí tại: [barobaonguyen.github.io/barobao](https://barobaonguyen.github.io/barobao/)**
+> 👉 **Nhận miễn phí tại: [barobaonguyen.github.io/baronguyen001](https://barobaonguyen.github.io/baronguyen001/)**
 
 Bao gồm:
 - ✅ **20 prompt** chia 5 nhóm: email (cả tiếng Nhật), research, tự động hóa, content, lập kế hoạch
@@ -43,15 +43,15 @@ Bao gồm:
 
 ## 📺 Kết nối với mình
 
-- 🌐 **Website / nhận bộ prompt**: https://barobaonguyen.github.io/barobao/
+- 🌐 **Website / nhận bộ prompt**: https://barobaonguyen.github.io/baronguyen001/
 - ▶️ **YouTube**: [@baronguyen001](https://www.youtube.com/@baronguyen001) — video mới mỗi tuần
 - 🎵 **TikTok**: [@baronguyen001](https://www.tiktok.com/@baronguyen001)
-- 💼 **LinkedIn**: [Baro Bao](https://www.linkedin.com/in/baronguyen001)
+- 💼 **LinkedIn**: [Baro Nguyen](https://www.linkedin.com/in/baronguyen001)
 
 ---
 
 <div align="center">
-<sub>© 2026 <b>Baro Bao</b> · Career &amp; AI cho người Việt biết tiếng Nhật</sub>
+<sub>© 2026 <b>Baro Nguyen</b> · Career &amp; AI cho người Việt biết tiếng Nhật</sub>
 </div>
 
 <!--
