@@ -82,18 +82,13 @@
     </ul>
 
     <div class="formbox">
-      <!-- ============================================================
-           CHÈN FORM EMAIL Ở ĐÂY (free):
-           Cách 1 (khuyên dùng): MailerLite → Forms → Embedded → copy mã dán đè cả khối <form> dưới.
-           Cách 2: Kit (ConvertKit) → Landing pages & Forms → Embed (HTML) → dán vào.
-           Khối <form> dưới là DEMO giao diện; chưa lưu được email tới khi anh thay bằng mã của tool.
-           ============================================================ -->
-      <form onsubmit="alert('Đây là form demo — thay bằng mã nhúng MailerLite/Kit để bắt email thật. Xem hướng dẫn trong README.'); return false;">
+      <!-- Form POST tới Google Apps Script → gửi email thật + đính kèm PDF + BCC. Setup: apps-script/SETUP.md -->
+      <form id="leadForm">
         <label for="email">Nhập email để nhận bộ prompt ngay:</label>
         <input type="email" id="email" name="email" placeholder="email@cuaban.com" required>
-        <button type="submit">Gửi cho tôi bộ prompt →</button>
+        <button type="submit" id="leadBtn">Gửi cho tôi bộ prompt →</button>
       </form>
-      <div class="note">Không spam. Hủy đăng ký bất cứ lúc nào.</div>
+      <div class="note" id="leadMsg">Không spam. Hủy đăng ký bất cứ lúc nào.</div>
     </div>
   </div>
 
@@ -112,5 +107,37 @@
   © 2026 Baro Bao · Career &amp; AI cho người Việt biết tiếng Nhật
 </footer>
 
+<script>
+(function(){
+  // 👉 Dán URL Web app Google Apps Script vào đây (hướng dẫn: apps-script/SETUP.md)
+  var SCRIPT_URL = "PASTE_GOOGLE_APPS_SCRIPT_WEBAPP_URL";
+
+  var form = document.getElementById('leadForm');
+  var btn  = document.getElementById('leadBtn');
+  var msg  = document.getElementById('leadMsg');
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var email = (document.getElementById('email').value || '').trim();
+    if(!email) return;
+    if(SCRIPT_URL.indexOf('PASTE_') === 0){
+      msg.innerHTML = '⚠️ Chưa cấu hình gửi email — xem <code>apps-script/SETUP.md</code>.';
+      return;
+    }
+    btn.disabled = true; btn.textContent = 'Đang gửi...';
+    fetch(SCRIPT_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      body: new URLSearchParams({ email: email })
+    }).then(function(){
+      form.style.display = 'none';
+      msg.innerHTML = '✅ Đã gửi! Kiểm tra hộp thư (kể cả mục <b>Quảng cáo / Spam</b>) trong vài phút nhé.';
+    }).catch(function(){
+      btn.disabled = false; btn.textContent = 'Gửi cho tôi bộ prompt →';
+      msg.textContent = 'Có lỗi, bạn thử lại giúp mình nhé.';
+    });
+  });
+})();
+</script>
 </body>
 </html>

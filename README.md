@@ -1,81 +1,60 @@
-# Baro Bao — Landing Page (GitHub Pages, 100% free)
+<div align="center">
 
-Landing page tĩnh để test thị trường: hero + lead magnet (bộ prompt) + form email + link YouTube/TikTok/LinkedIn. Tất cả miễn phí.
+# Baro Bao
 
----
+### 🇯🇵 Career &amp; AI cho người Việt biết tiếng Nhật
 
-## A. Đưa lên GitHub Pages (free) — 5 phút
+**11 năm: Dev → BrSE → PM → Sale → CEO** tại công ty IT phục vụ thị trường Nhật.
+Mình chia sẻ cách **nhảy ladder sự nghiệp** và **dùng AI để làm việc gấp 3–5 lần** trong môi trường công ty Nhật.
 
-> Dùng account **barobaonguyen** (xem note git identity cuối file).
+[![Website](https://img.shields.io/badge/Website-1B2A4A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://barobaonguyen.github.io/barobao/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@barobao)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@barobao)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/barobao)
 
-### Cách nhanh nhất: repo mới dưới account cũ → `barobaonguyen.github.io/barobao`
-
-1. Tạo repo `barobao` (public) trên GitHub.
-2. Trong thư mục này:
-   ```bash
-   git init
-   git add index.html README.md
-   git commit -m "Landing page Baro Bao v1"
-   git branch -M main
-   git remote add origin git@github.com:barobaonguyen/barobao.git
-   git push -u origin main
-   ```
-3. GitHub → repo `barobao` → **Settings → Pages** → Source: `Deploy from a branch` → Branch: `main` / `/ (root)` → Save.
-4. Đợi 1-2 phút → trang live tại: **https://barobaonguyen.github.io/barobao/**
-
-### (Tùy chọn) URL sạch `barobao.github.io`
-- Tạo **account GitHub mới tên `barobao`** → tạo repo tên đúng `barobao.github.io` → push file vào → live tại `https://barobao.github.io`.
-
-### (Sau khi validate) Gắn domain riêng `barobao.com` — ~$10/năm
-- Mua domain (Namecheap/Porkbun) → Settings → Pages → Custom domain → nhập `barobao.com` → thêm bản ghi DNS theo hướng dẫn GitHub. **Không phải build lại trang.**
+</div>
 
 ---
 
-## B. Bắt email + tự gửi lead magnet (free) — MailerLite
+## 🎁 Quà miễn phí cho bạn
 
-> GitHub Pages không tự lưu email → cần form của công cụ email. **MailerLite free**: tới 1.000 subscriber + automation.
+### Bộ 20 Prompt + 5 Trợ Lý Claude Cho Công Việc
 
-1. Đăng ký mailerlite.com (free).
-2. **Forms → Embedded form** → tạo form "Nhận bộ prompt" → bấm **Embed** → copy đoạn mã HTML.
-3. Mở `index.html`, tìm khối:
-   ```
-   <!-- CHÈN FORM EMAIL Ở ĐÂY -->
-   <form onsubmit=...>...</form>
-   ```
-   → **xóa cả khối `<form>` demo**, dán mã MailerLite vào đúng chỗ đó.
-4. **Automation** trong MailerLite: trigger "khi đăng ký form này" → gửi email kèm link PDF lead magnet.
-   - Nội dung email: dùng **Email 1** trong `ideas-vault/007-jp-skills-academy/PHASE0/04_tech_studio.md`.
-5. Commit + push lại.
+Đúng bộ mình dùng để giao **80% việc lặp** cho AI mỗi ngày — copy về dùng được ngay.
 
-> Thay MailerLite bằng **Kit (ConvertKit) free** cũng được — bước tương tự (Forms → Embed HTML).
+> 👉 **Nhận miễn phí tại: [barobaonguyen.github.io/barobao](https://barobaonguyen.github.io/barobao/)**
+
+Bao gồm:
+- ✅ **20 prompt** chia 5 nhóm: email (cả tiếng Nhật), research, tự động hóa, content, lập kế hoạch
+- ✅ **5 “trợ lý” Claude** cài 1 lần, dùng mãi
+- ✅ **Newsletter mỗi thứ Bảy**: 1 câu chuyện thật + 1 tip AI cho công việc
 
 ---
 
-## C. Host PDF lead magnet (free)
-- Cách 1: bỏ file `leadmagnet.pdf` vào repo này → link `https://barobaonguyen.github.io/barobao/leadmagnet.pdf`.
-- Cách 2: upload Google Drive → share "ai có link" → dán link vào email automation.
-- Nội dung PDF: lấy từ `PHASE0/07_lead_magnet_AI.md`, format bằng Canva free.
+## 💡 Mình chia sẻ về gì
+
+| Chủ đề | Nội dung |
+|---|---|
+| 🤖 **AI cho công việc** | Claude / Claude Code, tự động hóa, “vibe-coding” cho người không rành kỹ thuật |
+| 🇯🇵 **Sự nghiệp tại công ty Nhật** | Lộ trình N3 → BrSE → PM → Sale, giao tiếp business Nhật (Hourensou, email, họp) |
+| 📈 **Năng suất** | Cách làm việc gấp 3–5 lần bằng hệ thống + AI |
 
 ---
 
-## D. Cần thay trong `index.html`
-- [ ] `avatar.jpg`: bỏ 1 ảnh chân dung vào thư mục này (hoặc xóa dòng `<img>` nếu chưa có).
-- [ ] 3 link `href="#"` ở mục "Theo dõi mình" → link YouTube / TikTok / LinkedIn thật.
-- [ ] Khối `<form>` demo → mã nhúng MailerLite/Kit.
+## 📺 Kết nối với mình
+
+- 🌐 **Website / nhận bộ prompt**: https://barobaonguyen.github.io/barobao/
+- ▶️ **YouTube**: [@barobao](https://youtube.com/@barobao) — video mới mỗi tuần
+- 🎵 **TikTok**: [@barobao](https://tiktok.com/@barobao)
+- 💼 **LinkedIn**: [Baro Bao](https://linkedin.com/in/barobao)
 
 ---
 
-## E. Analytics free (tùy chọn)
-- **Cloudflare Web Analytics** (free, không cần cookie banner): thêm 1 đoạn script vào `<head>`.
-- Hoặc Google Analytics 4 (free).
+<div align="center">
+<sub>© 2026 <b>Baro Bao</b> · Career &amp; AI cho người Việt biết tiếng Nhật</sub>
+</div>
 
----
-
-## Git identity (quan trọng — theo convention của anh)
-- Commit phải dùng **barobaonguyen** + email noreply:
-  ```bash
-  git config user.name "barobaonguyen"
-  git config user.email "265752715+barobaonguyen@users.noreply.github.com"
-  ```
-- Nếu dùng gh CLI: `gh auth switch -u barobaonguyen` trước khi thao tác.
-- KHÔNG commit email/PII riêng tư; trang này public.
+<!--
+Tài liệu kỹ thuật (deploy / setup form email): xem DEPLOY.md
+Link YouTube/TikTok/LinkedIn ở trên đang dùng handle @barobao — kiểm tra & thay nếu khác.
+-->
