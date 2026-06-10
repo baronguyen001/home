@@ -23,9 +23,10 @@ git add . && git commit -m "update landing" && git push
 ---
 
 ## B. Cần thay trong `index.html`
-- [ ] `avatar.jpg`: bỏ ảnh chân dung vào thư mục (hoặc xóa dòng `<img>`).
+- [ ] `avatar.jpg`: bỏ ảnh chân dung vào thư mục. Nếu chưa có, ảnh tự fallback sang chữ "B" (không để khoảng trống) — không cần xóa dòng `<img>`.
 - [x] Link social (YouTube/TikTok/LinkedIn) đã là `@baronguyen001`.
 - [x] Nút CTA 🎁 trỏ sang `https://baronguyen001.github.io/prompt_workflow_gift/`.
+- [x] SEO/social: title, meta description, canonical, favicon (SVG inline), Open Graph + Twitter card, JSON-LD Person/ProfilePage đã có sẵn trong `<head>`.
 
 ## C. Analytics free (tùy chọn)
 - Cloudflare Web Analytics (free, không cookie banner) hoặc GA4.

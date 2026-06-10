@@ -13,13 +13,48 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Baro Nguyen — Career & AI cho người Việt biết tiếng Nhật</title>
 <meta name="description" content="11 năm Dev → BrSE → PM → Sale → CEO tại công ty IT thị trường Nhật. Chia sẻ cách nhảy ladder career + 10× năng suất bằng AI.">
+<meta name="author" content="Baro Nguyen">
+<meta name="theme-color" content="#1B2A4A">
+<link rel="canonical" href="https://baronguyen001.github.io/home/">
+<!-- Favicon (SVG inline, không cần file rời) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231B2A4A'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Arial,sans-serif' font-weight='bold' fill='%23E8552D' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E">
 <!-- Open Graph (share đẹp trên FB/Zalo) -->
 <meta property="og:title" content="Baro Nguyen — Career & AI cho người Việt biết tiếng Nhật">
 <meta property="og:description" content="Career & AI cho người Việt biết tiếng Nhật. Nhận miễn phí bộ 20 prompt + 5 trợ lý Claude cho công việc.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://baronguyen001.github.io/home/">
+<meta property="og:site_name" content="Baro Nguyen">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:image" content="https://baronguyen001.github.io/home/avatar.jpg">
+<!-- Twitter card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Baro Nguyen — Career & AI cho người Việt biết tiếng Nhật">
+<meta name="twitter:description" content="Career & AI cho người Việt biết tiếng Nhật. Nhận miễn phí bộ 20 prompt + 5 trợ lý Claude cho công việc.">
+<meta name="twitter:image" content="https://baronguyen001.github.io/home/avatar.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&display=swap" rel="stylesheet">
+<!-- JSON-LD: Person + ProfilePage (SEO cho Google) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Baro Nguyen",
+    "url": "https://baronguyen001.github.io/home/",
+    "image": "https://baronguyen001.github.io/home/avatar.jpg",
+    "jobTitle": "CEO",
+    "description": "Career & AI cho người Việt biết tiếng Nhật. 11 năm Dev → BrSE → PM → Sale → CEO tại công ty IT thị trường Nhật.",
+    "knowsAbout": ["AI cho công việc", "Claude", "Sự nghiệp tại công ty Nhật", "BrSE", "Năng suất"],
+    "sameAs": [
+      "https://www.youtube.com/@baronguyen001",
+      "https://www.tiktok.com/@baronguyen001",
+      "https://www.linkedin.com/in/baronguyen001"
+    ]
+  }
+}
+</script>
 <style>
   :root{--navy:#1B2A4A;--navy2:#142038;--red:#E8552D;--ink:#1f2733;--muted:#5b6676;--bg:#f4f5f7;--card:#ffffff;}
   *{box-sizing:border-box;margin:0;padding:0}
@@ -29,6 +64,8 @@
   /* HERO */
   header{background:linear-gradient(160deg,var(--navy),var(--navy2));color:#fff;padding:56px 0 48px;text-align:center}
   .avatar{width:96px;height:96px;border-radius:50%;object-fit:cover;border:3px solid var(--red);background:#26344f;margin:0 auto 18px;display:block}
+  /* Fallback chữ "B" khi chưa có avatar.jpg — không để khoảng trống */
+  .avatar-fallback{width:96px;height:96px;border-radius:50%;border:3px solid var(--red);background:#26344f;margin:0 auto 18px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:2.4rem;font-weight:800;line-height:1}
   header h1{font-size:1.9rem;font-weight:800;letter-spacing:-.5px}
   header .tag{color:#c8d2e4;font-weight:600;margin-top:8px;font-size:1.05rem}
   .arc{margin-top:16px;font-size:.86rem;color:#9fb0cc;letter-spacing:.3px}
@@ -59,7 +96,7 @@
   .links a:hover{border-color:var(--red);transform:translateY(-1px)}
   .links a span{color:var(--muted);font-weight:500;font-size:.85rem}
 
-  footer{text-align:center;color:#9aa3b2;font-size:.78rem;padding:30px 0 40px}
+  footer{text-align:center;color:#68707e;font-size:.78rem;padding:30px 0 40px}
 </style>
 </head>
 <body>
@@ -67,7 +104,7 @@
 <header>
   <div class="wrap">
     <!-- Thay bằng ảnh thật: đặt avatar.jpg cùng thư mục -->
-    <img class="avatar" src="avatar.jpg" alt="Baro Nguyen" onerror="this.style.display='none'">
+    <img class="avatar" src="avatar.jpg" width="96" height="96" loading="lazy" decoding="async" alt="Ảnh chân dung Baro Nguyen — Career & AI cho người Việt biết tiếng Nhật" onerror="this.outerHTML='&lt;div class=&quot;avatar-fallback&quot; role=&quot;img&quot; aria-label=&quot;Baro Nguyen&quot;&gt;B&lt;/div&gt;'">
     <h1>Baro Nguyen</h1>
     <div class="tag">Career &amp; AI cho người Việt biết tiếng Nhật</div>
     <div class="arc">Dev → BrSE → PM → Sale → <b>CEO</b> · 11 năm tại công ty IT thị trường Nhật</div>
@@ -97,9 +134,9 @@
   <section class="social">
     <h3>Theo dõi mình</h3>
     <div class="links">
-      <a href="https://www.youtube.com/@baronguyen001" target="_blank">▶️ YouTube <span>— video AI cho công việc mỗi tuần</span></a>
-      <a href="https://www.tiktok.com/@baronguyen001" target="_blank">🎵 TikTok <span>— tip nhanh mỗi T2/T4/T6</span></a>
-      <a href="https://www.linkedin.com/in/baronguyen001" target="_blank">💼 LinkedIn <span>— career &amp; AI cho dân làm việc với Nhật</span></a>
+      <a href="https://www.youtube.com/@baronguyen001" target="_blank" rel="noopener" aria-label="YouTube của Baro Nguyen (mở tab mới)">▶️ YouTube <span>— video AI cho công việc mỗi tuần</span></a>
+      <a href="https://www.tiktok.com/@baronguyen001" target="_blank" rel="noopener" aria-label="TikTok của Baro Nguyen (mở tab mới)">🎵 TikTok <span>— tip nhanh mỗi T2/T4/T6</span></a>
+      <a href="https://www.linkedin.com/in/baronguyen001" target="_blank" rel="noopener" aria-label="LinkedIn của Baro Nguyen (mở tab mới)">💼 LinkedIn <span>— career &amp; AI cho dân làm việc với Nhật</span></a>
     </div>
   </section>
 </div>
