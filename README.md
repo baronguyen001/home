@@ -2,10 +2,10 @@
 
 # Baro Nguyen
 
-### 🇯🇵 Career &amp; AI cho người Việt biết tiếng Nhật
+### 🚀 AI for Solopreneur — tự dùng AI để bán khóa, cho người làm nghề chuyên môn
 
 **11 năm: Dev → BrSE → PM → Sale → CEO** tại công ty IT phục vụ thị trường Nhật.
-Mình chia sẻ cách **nhảy ladder sự nghiệp** và **dùng AI để làm việc gấp 3–5 lần** trong môi trường công ty Nhật.
+Mình chỉ anh chị đang sống bằng chuyên môn — coach, chuyên gia, nhà đào tạo — cách **tự dùng AI để lo phần marketing, content, video và trang bán hàng**, để anh chị còn thời gian tập trung vào việc mình giỏi nhất là giảng dạy. Mình không bán giấc mơ làm giàu nhanh; mình chỉ cách làm thật, kết quả tới đâu là do nội lực mỗi người.
 
 [![Website](https://img.shields.io/badge/Website-1B2A4A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://baronguyen001.github.io/home/)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@baronguyen001)
@@ -16,18 +16,18 @@ Mình chia sẻ cách **nhảy ladder sự nghiệp** và **dùng AI để làm 
 
 ---
 
-## 🎁 Quà miễn phí cho bạn
+## 🎁 Quà miễn phí cho anh chị
 
-### Bộ 20 Prompt + 5 Trợ Lý Claude Cho Công Việc
+### Bộ prompt + trợ lý AI để bắt đầu giao việc cho AI
 
-Đúng bộ mình dùng để giao **80% việc lặp** cho AI mỗi ngày — copy về dùng được ngay.
+Đây là bộ mình dùng mỗi ngày để giao phần việc lặp đi lặp lại cho AI. Anh chị tải về là dùng được ngay, không cần rành kỹ thuật.
 
 > 👉 **Nhận miễn phí tại: [baronguyen001.github.io/prompt_workflow_gift](https://baronguyen001.github.io/prompt_workflow_gift/)**
 
 Bao gồm:
-- ✅ **20 prompt** chia 5 nhóm: email (cả tiếng Nhật), research, tự động hóa, content, lập kế hoạch
-- ✅ **5 “trợ lý” Claude** cài 1 lần, dùng mãi
-- ✅ **Newsletter mỗi thứ Bảy**: 1 câu chuyện thật + 1 tip AI cho công việc
+- ✅ **Bộ prompt** cho các việc lặp: viết nội dung, soạn email, nghiên cứu, lên kế hoạch
+- ✅ **Vài “trợ lý” AI** cài 1 lần, dùng mãi
+- ✅ **Bản tin mỗi tuần**: 1 câu chuyện thật + 1 mẹo dùng AI cho công việc
 
 ---
 
@@ -35,9 +35,9 @@ Bao gồm:
 
 | Chủ đề | Nội dung |
 |---|---|
-| 🤖 **AI cho công việc** | Claude / Claude Code, tự động hóa, “vibe-coding” cho người không rành kỹ thuật |
-| 🇯🇵 **Sự nghiệp tại công ty Nhật** | Lộ trình N3 → BrSE → PM → Sale, giao tiếp business Nhật (Hourensou, email, họp) |
-| 📈 **Năng suất** | Cách làm việc gấp 3–5 lần bằng hệ thống + AI |
+| 🤖 **Tự dùng AI làm marketing** | Viết bài, kịch bản video, trang bán hàng — vẫn giữ đúng “chất” của anh chị, không nghe như máy đọc |
+| 🧲 **Hệ thống tự thu và chăm khách** | Để người quan tâm không rơi rớt, anh chị không phải nhớ và nhắn tay từng người |
+| 🎓 **Đóng gói & bán khóa của anh chị** | Biến kiến thức trong đầu thành một khóa học gọn gàng, bán được — mà không phải thuê cả một đội |
 
 ---
 
@@ -52,7 +52,7 @@ Bao gồm:
 ---
 
 <div align="center">
-<sub>© 2026 <b>Baro Nguyen</b> · Career &amp; AI cho người Việt biết tiếng Nhật</sub>
+<sub>© 2026 <b>Baro Nguyen</b> · AI for Solopreneur — tự dùng AI để bán khóa, cho người làm nghề chuyên môn</sub>
 </div>
 
 <!--
