@@ -2,10 +2,10 @@
 
 # Baro Nguyen
 
-### 🚀 AI for Solopreneur — tự dùng AI để bán khóa, cho người làm nghề chuyên môn
+### 🚀 AI for Solopreneur — tự dùng AI để bán khóa và dịch vụ, cho người kinh doanh một mình
 
 **11 năm: Dev → BrSE → PM → Sale → CEO** tại công ty IT phục vụ thị trường Nhật.
-Mình chỉ anh chị đang sống bằng chuyên môn — coach, chuyên gia, nhà đào tạo — cách **tự dùng AI để lo phần marketing, content, video và trang bán hàng**, để anh chị còn thời gian tập trung vào việc mình giỏi nhất là giảng dạy. Mình không bán giấc mơ làm giàu nhanh; mình chỉ cách làm thật, kết quả tới đâu là do nội lực mỗi người.
+Mình chỉ anh chị đang kinh doanh một mình bằng chuyên môn — coach, tư vấn, freelancer, người bán khóa hay dịch vụ của riêng mình — cách **tự dùng AI để lo phần marketing, content, video và trang bán hàng**, để anh chị còn thời gian cho việc mình giỏi nhất. Anh chị không cần tự nhận là "chuyên gia" mới hợp. Mình không bán giấc mơ làm giàu nhanh; mình chỉ cách làm thật, kết quả tới đâu là do nội lực mỗi người.
 
 [![Website](https://img.shields.io/badge/Website-1B2A4A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://baronguyen001.github.io/home/)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@baronguyen001)
@@ -37,7 +37,7 @@ Bao gồm:
 |---|---|
 | 🤖 **Tự dùng AI làm marketing** | Viết bài, kịch bản video, trang bán hàng — vẫn giữ đúng “chất” của anh chị, không nghe như máy đọc |
 | 🧲 **Hệ thống tự thu và chăm khách** | Để người quan tâm không rơi rớt, anh chị không phải nhớ và nhắn tay từng người |
-| 🎓 **Đóng gói & bán khóa của anh chị** | Biến kiến thức trong đầu thành một khóa học gọn gàng, bán được — mà không phải thuê cả một đội |
+| 🎓 **Đóng gói & bán khóa hoặc dịch vụ của anh chị** | Biến kiến thức trong đầu thành thứ bán được — mà không phải thuê cả một đội |
 
 ---
 
@@ -52,7 +52,7 @@ Bao gồm:
 ---
 
 <div align="center">
-<sub>© 2026 <b>Baro Nguyen</b> · AI for Solopreneur — tự dùng AI để bán khóa, cho người làm nghề chuyên môn</sub>
+<sub>© 2026 <b>Baro Nguyen</b> · AI for Solopreneur — tự dùng AI để bán khóa và dịch vụ, cho người kinh doanh một mình</sub>
 </div>
 
 <!--
